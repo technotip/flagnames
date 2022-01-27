@@ -31,3 +31,10 @@ Outputs Flag Names on an XRPL Account
 
 It outputs all the flag names on the XRPL account in the form of an array.
 
+# Future Updates
+Will add more flags information to the package like:
+OfferCreate flags.
+EnableAmendment flags.
+PaymentChannelClaim flags.
+RippleState flags.
+Offer flags etc.
