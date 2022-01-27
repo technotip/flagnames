@@ -30,6 +30,7 @@ Outputs Flag Names on an XRPL Account
   > [ 'lsfRequireDestTag', 'lsfRequireAuth' ]
 
 It outputs all the flag names on the XRPL account in the form of an array.
+
 Returns empty array if no flags are set on the provided XRPL account.
 
 # Future Updates
