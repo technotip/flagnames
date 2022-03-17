@@ -19,7 +19,7 @@ Outputs Flag Names on an XRPL Account
     account: "rHdkzpxr3VfabJh9tUEDv7N4DJEsA4UioT",
   });
   
-  console.log(flagNames(account_data.Flags));
+  console.log(flagNames(account_data.LedgerEntryType, account_data.Flags));
     
   }
   main();
@@ -34,7 +34,9 @@ Returns empty array if no flags are set on the provided XRPL account.
 
 Currently the package works for all the AccountRoot flags mentioned here: https://xrpl.org/accountroot.html#accountroot-flags
 
+# Currently Supported Flags
+AccountRoot, RippleState
 
 # Future Updates
 Will add more flags information to the package like:
-OfferCreate flags, EnableAmendment flags, PaymentChannelClaim flags, RippleState flags, Offer flags etc.
+OfferCreate flags, EnableAmendment flags, PaymentChannelClaim flags, Offer flags etc.
