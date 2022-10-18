@@ -29,6 +29,9 @@ const Flags = {
     lsfHighNoRipple: 2097152,
     lsfLowFreeze: 4194304,
     lsfHighFreeze: 8388608,
+  },
+  SignerList: {
+    lsfOneOwnerCount: 65536
   }
 };
 
