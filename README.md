@@ -35,7 +35,7 @@ Returns empty array if no flags are set on the provided XRPL account.
 Currently the package works for all the AccountRoot flags mentioned here: https://xrpl.org/accountroot.html#accountroot-flags
 
 # Currently Supported Flags
-AccountRoot, RippleState
+AccountRoot, RippleState, SignerList
 
 # Future Updates
 Will add more flags information to the package like:
