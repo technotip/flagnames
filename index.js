@@ -10,17 +10,21 @@ exports.flagNames = function (objectType, accountflag) {
 };
 const Flags = {
   AccountRoot: {
-    lsfPasswordSpent: 65536,
     lsfRequireDestTag: 131072,
     lsfRequireAuth: 262144,
-    lsfDisallowXRP: 524288,
-    lsfDisableMaster: 1048576,
+    lsfPasswordSpent: 65536,
     lsfNoFreeze: 2097152,
     lsfGlobalFreeze: 4194304,
-    lsfDefaultRipple: 8388608,
+    lsfDisallowXRP: 524288,
+    lsfDisallowIncomingTrustline: 536870912,
+    lsfDisallowIncomingPayChan: 268435456,
+    lsfDisallowIncomingNFTokenOffer: 67108864,
+    lsfDisallowIncomingCheck: 134217728,
+    lsfDisableMaster: 1048576,
     lsfDepositAuth: 16777216,
+    lsfDefaultRipple: 8388608,
   },
-  RippleState : {
+  RippleState: {
     lsfLowReserve: 65536,
     lsfHighReserve: 131072,
     lsfLowAuth: 262144,
@@ -31,8 +35,9 @@ const Flags = {
     lsfHighFreeze: 8388608,
   },
   SignerList: {
-    lsfOneOwnerCount: 65536
-  }
+    lsfOneOwnerCount: 65536,
+  },
+  NFTokenOffer: {
+    lsfSellNFToken: 1,
+  },
 };
-
-

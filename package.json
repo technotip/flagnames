@@ -1,6 +1,6 @@
 {
   "name": "flagnames",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "Outputs Flag Names on an XRPL Account",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,10 @@
     "xrpl",
     "flags",
     "account-flags",
-    "xrp ledger"
+    "xrp ledger",
+    "AccountRoot",
+    "RippleState",
+    "SignerList"
   ],
   "author": "Satish (https://technotip.com/)",
   "license": "ISC"
